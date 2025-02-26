@@ -1,0 +1,12 @@
+@use "helpers" as *;
+
+::-webkit-scrollbar {
+    background-color: var(--color-dark-10);
+    width: rem(6);
+    height: rem(6);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-accent);
+    border-radius: rem(12);
+}
