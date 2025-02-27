@@ -229,7 +229,7 @@ svg * {
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter-Semibold.woff2") format("woff2");
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -354,7 +354,7 @@ svg * {
   content: "";
   right: 0;
   border-radius: 50%;
-  background: url("../../icons/arrow-top-right_black.svg") center no-repeat var(--color-accent);
+  background: url("../icons/arrow-top-right_black.svg") center no-repeat var(--color-accent);
 }
 
 html.is-lock {
@@ -534,13 +534,13 @@ button::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url("..//../icons/arrow-top-right_yellow.svg");
+  background-image: url("../icons/arrow-top-right_yellow.svg");
 }
 .icon--yellow-eye::after {
-  background-image: url("..//../icons/eye_yellow.svg");
+  background-image: url("../icons/eye_yellow.svg");
 }
 .icon--gray-arrow-down::after {
-  background-image: url("..//../icons/arrow-down_gray.svg");
+  background-image: url("../icons/arrow-down_gray.svg");
 }
 
 .logo {
@@ -1135,7 +1135,7 @@ button::before {
 .hero__resources-preview {
   grid-area: resources-preview;
   padding: 0 0 5rem 5rem;
-  background: url("../../images/resources-preview/bg.png") 0 0/cover no-repeat;
+  background: url("../images/resources-preview/bg.png") 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -1152,7 +1152,7 @@ button::before {
     width: var(--100vw);
     margin-left: calc(var(--container-padding-x) * -1);
     padding: 6.25rem 2.5rem 2.5rem;
-    background-image: url("../../images/resources-preview/bg_tablet.png");
+    background-image: url("../images/resources-preview/bg_tablet.png");
     background-size: contain;
   }
 }
@@ -1832,10 +1832,10 @@ button::before {
   --size: 1.5rem;
   width: var(--size);
   height: var(--size);
-  background: url("../../icons/star_gray.svg") center/contain no-repeat;
+  background: url("../icons/star_gray.svg") center/contain no-repeat;
 }
 .rating-view__star.is-active {
-  background: url("../../icons/star_yellow.svg") center/contain no-repeat;
+  background: url("../icons/star_yellow.svg") center/contain no-repeat;
 }
 @media (width <= 90.06125rem) {
   .rating-view__star {
@@ -2567,7 +2567,7 @@ button::before {
   width: var(--size);
   height: var(--size);
   content: "";
-  background: url("../../icons/arrow-down__white.svg") center/contain no-repeat;
+  background: url("../icons/arrow-down__white.svg") center/contain no-repeat;
   transition-duration: var(--transition-duration);
 }
 @media (width <= 90.06125rem) {
